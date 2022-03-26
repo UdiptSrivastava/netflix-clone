@@ -11,11 +11,7 @@ require_once("includes/classes/Video.php");
 require_once("includes/classes/VideoProvider.php");
 require_once("includes/classes/User.php");
 
-if(!isset($_SESSION["userLoggedIn"])) {
-    header("Location: login.php");
-}
-
-$userLoggedIn = $_SESSION["userLoggedIn"];
+$userLoggedIn="username";
 ?>
 <!DOCTYPE html>
 <html>
